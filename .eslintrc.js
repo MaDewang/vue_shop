@@ -11,7 +11,8 @@ module.exports = {
     "no-useless-return": 0,
     "no-trailing-spaces": 0,
     "key-spacing": 0,
-    "key-spacing": [0, { beforeColon: false, afterColon: true }] //对象字面量中冒号的前后空
+    "key-spacing": [0, { beforeColon: false, afterColon: true }], //对象字面量中冒号的前后空
+    "standard/computed-property-even-spacing": 0
   },
   parserOptions: {
     parser: "babel-eslint"
