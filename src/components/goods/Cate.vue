@@ -172,7 +172,7 @@ export default {
     this.getCateList()
   },
   methods: {
-    // 获取用户列表数据 渲染页面
+    // 获取商品分类列表数据 渲染页面
     async getCateList() {
       const { data: res } = await this.$http.get('categories', {
         params: this.queryInfo
