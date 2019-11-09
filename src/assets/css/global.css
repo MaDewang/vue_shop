@@ -17,3 +17,15 @@ html,body,#app{
     margin-top: 15px;
     font-size: 12px;
 }
+.el-steps {
+    margin-top: 15px;
+}
+.el-step__title {
+    font-size: 13px;
+}
+.ql-editor {
+    min-height: 300px;
+}
+.addBtn {
+    margin-top: 15px;
+}
